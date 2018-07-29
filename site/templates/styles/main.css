@@ -1,0 +1,336 @@
+/**
+ * main.css
+ *
+ * 1. General HTML tags
+ * 2. Masthead area
+ * 3. Main content and sidebar
+ * 4. Footer
+ * 5. Media queries for responsive layout
+ * 6. Accessibility helpers
+ *
+ */
+
+/*********************************************************************
+ * 1. General HTML tags
+ *
+ */
+
+td, input[type=text], textarea {
+	font-family: 'Quattrocento', serif;
+    line-height: 2.2em;
+    color: black;
+    border: 1px solid black;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+h3 {
+	border-top: 1px solid #eee;
+	padding-top: 1em;
+	color: #777;
+}
+
+blockquote {
+	margin-left: 0;
+	padding-left: 1.5em;
+	padding-right: 2em;
+	border-left: 4px solid #ddd;
+	font-style: italic;
+	color: #777;
+}
+
+pre, code {
+	background: #eee;
+	border: 1px solid #ddd;
+}
+
+pre {
+	font-size: 14px;
+	line-height: 1.4em;
+	padding: 1em;
+	border-left: 4px solid #ddd;
+}
+
+#main {
+	padding-top: 1em;
+	margin-top: 1em;
+	clear: both;
+}
+
+.align_left {
+	/* for images placed in rich text editor */
+	float: left;
+	margin: 0 1em 0.5em 0;
+	position: relative;
+	top: 0.5em;
+	max-width: 50%;
+}
+
+.align_right {
+	/* for images placed in rich text editor */
+	float: right;
+	margin: 0 0 0.5em 1em;
+	max-width: 50%;
+}
+
+.align_center {
+	/* for images placed in rich text editor */
+	display: block;
+	margin: 1em auto;
+	position: relative;
+	top: 0.5em;
+}
+
+/*********************************************************************
+ * 4. Footer
+ *
+ */
+
+#footer {
+	clear: both;
+	font-size: 80%;
+}
+
+/*********************************************************************
+ * 5. Media queries for responsive layout
+ *
+ */
+
+@media only screen and (max-width: 767px) {
+	/* mobile layout */
+
+	body, td, textarea {
+		font-size: 100%;
+	}
+	form.search {
+		float: none;
+		width: 100%;
+	}
+	#content {
+		width: 100%;
+	}
+	.align_left, .align_right, .align_center {
+		display: block;
+		float: none;
+		margin: 1em auto;
+		max-width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+	/* extra-wide desktop layout */
+
+	body, td, textarea {
+		font-size: 115%;
+	}
+}
+
+/*********************************************************************
+ * 6. Accessibility helpers
+ *
+ */
+
+/* Hide visually, but remain approachable for screenreader */
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	white-space: nowrap;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	border: 0;
+}
+
+/* Show bypass link on hover */
+
+.element-focusable:focus {
+	clip: auto;
+	overflow: visible;
+	height: auto;
+}
+
+/* Sample styling for bypass link */
+
+.bypass-to-main:focus {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+}
+
+/********************* BEGIN CUSTOM *********************/
+.main-content {
+	max-width: 1600px;
+}
+
+.menu-content {
+	text-align: right;
+    padding-right: 20px;
+}
+
+.header-image {
+	max-width: 20%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.menu-image {
+	padding-top: 20px;
+}
+
+.footer-background {
+	padding: 700px 0px 100px 0px;
+	width: 100%;
+	height: auto;
+}
+
+.footer-content {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+	.footer-content a {
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid white;
+	}
+	.footer-content a:hover {
+		color: grey;
+		border-color: grey;
+	}
+
+.hero-image {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.search {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+	.search input {
+		width: 35%;
+		padding: 0px 8px;
+		margin: 0px 0px;
+	}
+	.search button {
+		padding: 0px 10px;
+		margin: 0px 0px;
+		position: relative;
+		right: 5px;
+		line-height: 2.4em;
+		top: 1px;
+		background: #1F4C6C;
+		color: white;
+		border: none;
+		cursor: pointer;
+	}
+
+.story-image {
+	display: block;
+	margin: 0px auto;
+	height: 60px;
+	width: auto;
+	margin-top: 10px;
+}
+
+.story {
+	padding: 20px 50px 0px 50px;
+}
+
+.story-signature {
+	height: 60px;
+    width: auto;
+    float: right;
+    position: relative;
+    right: 50px;
+}
+/******************** Hamburger Magic *********************/
+.toggle-button {
+	float: right;
+	margin-right: 20px;
+}
+
+.slideout-menu {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 256px;
+	min-height: 100vh;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	z-index: 0;
+	display: none;
+}
+
+.slideout-menu-left {
+	left: 0;
+}
+
+.slideout-menu-right {
+	right: 0;
+}
+
+.slideout-panel {
+	position: relative;
+	z-index: 1;
+	will-change: transform;
+	background-color: #FFF; /* A background-color is required */
+	min-height: 100vh;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+	overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+	display: block;
+}
+
+.toggle-button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #AA8241;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}

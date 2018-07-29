@@ -1,0 +1,7 @@
+2018-07-28 20:12:21	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'
+2018-07-29 01:21:31	admin	http://localhost/idx/processwire/login/logout/	Logout for 'admin'
+2018-07-29 01:24:04	guest	http://localhost/idx/processwire/login/	Error: Failed login for 'admin' - Invalid password
+2018-07-29 01:24:10	guest	http://localhost/idx/processwire/login/	Error: Failed login for 'admin' - Invalid password
+2018-07-29 01:24:23	guest	http://localhost/idx/processwire/login/	Error: Failed login for 'hferrell-hfrealtor.com' - Unknown user
+2018-07-29 01:24:33	guest	http://localhost/idx/processwire/login/	Error: Failed login for 'hferrell-hfrealtor.com' - Unknown user
+2018-07-29 04:30:54	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'

@@ -1,0 +1,5 @@
+2018-07-28 20:11:08	guest	http://localhost/idx/	Added filedata to DB schema for 'images'
+2018-07-29 04:46:42	admin	http://localhost/idx/processwire/setup/template/removeFields	Deleted field "headline" data in 1 row(s) from 1 page(s) using template "home". [page-by-page]
+2018-07-29 04:46:42	admin	http://localhost/idx/processwire/setup/template/removeFields	Deleted field "summary" data in 1 row(s) from 1 page(s) using template "home". [page-by-page]
+2018-07-29 04:46:42	admin	http://localhost/idx/processwire/setup/template/removeFields	Deleted field "sidebar" data in 1 row(s) from 1 page(s) using template "home". [page-by-page]
+2018-07-29 04:46:42	admin	http://localhost/idx/processwire/setup/template/removeFields	Deleted field "images" data in 2 row(s) from 1 page(s) using template "home". [page-by-page]
