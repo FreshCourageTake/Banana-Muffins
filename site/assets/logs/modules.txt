@@ -26,3 +26,8 @@
 2018-07-29 00:12:03	admin	http://localhost/idx/processwire/page/link/?id=1&modal=1	Saved module 'InputfieldPage' config data
 2018-07-29 00:12:03	admin	http://localhost/idx/processwire/page/link/?id=1&modal=1	Installed module 'InputfieldPageAutocomplete'
 2018-07-29 00:12:03	admin	http://localhost/idx/processwire/page/link/?id=1&modal=1	Saved module info caches
+2018-07-31 00:17:21	admin	http://localhost/idx/processwire/module/	Saved module 'FieldtypeRepeater' config data
+2018-07-31 00:17:21	admin	http://localhost/idx/processwire/module/	Installed module 'InputfieldRepeater'
+2018-07-31 00:17:21	admin	http://localhost/idx/processwire/module/	Installed module 'FieldtypeRepeater'
+2018-07-31 00:17:24	admin	http://localhost/idx/processwire/module/	Saved module info caches
+2018-07-31 00:17:32	admin	http://localhost/idx/processwire/module/edit?name=FieldtypeRepeater	Saved module 'FieldtypeRepeater' config data

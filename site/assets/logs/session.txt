@@ -5,3 +5,6 @@
 2018-07-29 01:24:23	guest	http://localhost/idx/processwire/login/	Error: Failed login for 'hferrell-hfrealtor.com' - Unknown user
 2018-07-29 01:24:33	guest	http://localhost/idx/processwire/login/	Error: Failed login for 'hferrell-hfrealtor.com' - Unknown user
 2018-07-29 04:30:54	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'
+2018-07-30 23:37:57	?	?	User 'admin' - Session timed out (session older than 86400 seconds) (IP: 127.0.0.1)
+2018-07-30 23:38:03	admin	http://localhost/idx/processwire/login/?id=1	Successful login for 'admin'
+2018-07-31 06:30:11	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'

@@ -1,0 +1,1 @@
+2018-07-31 00:41:13	admin	http://localhost/idx/	Parse Error: 	syntax error, unexpected '}', expecting ',' or ';' (line 29 of C:\MAMP\htdocs\idx\site\assets\cache\FileCompiler\site\templates\home.php)

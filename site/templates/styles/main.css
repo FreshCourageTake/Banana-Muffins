@@ -15,8 +15,12 @@
  *
  */
 
-td, input[type=text], textarea {
-	font-family: 'Quattrocento', serif;
+ .row {
+	 margin-right: 0px !important;
+	 margin-left: 0px !important;
+ }
+
+.searchbar {
     line-height: 2.2em;
     color: black;
     border: 1px solid black;
@@ -31,7 +35,6 @@ h2 {
 }
 
 h3 {
-	border-top: 1px solid #eee;
 	padding-top: 1em;
 	color: #777;
 }
@@ -95,6 +98,7 @@ pre {
 #footer {
 	clear: both;
 	font-size: 80%;
+	background: lightgrey;
 }
 
 /*********************************************************************
@@ -182,16 +186,31 @@ pre {
     padding-right: 20px;
 }
 
+.social-media-header {
+    margin-left: 6vw;
+    margin-top: 80px;
+}
+
+.social-icon {
+	height: 30px;
+    width: auto;
+    margin: 0px 5px;
+}
+
 .header-image {
-	max-width: 20%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+	max-width: 250px;
+    margin: 0px auto;
+    display: block;
+    padding: 50px 0px;
 }
 
 .menu-image {
 	padding-top: 20px;
+    width: 250px;
+    padding-bottom: 20px;
+    display: block;
+    margin-right: 0px;
+    margin-left: auto;
 }
 
 .footer-background {
@@ -203,7 +222,6 @@ pre {
 .footer-content {
 	color: white;
 	text-align: center;
-	font-size: 30px;
 }
 
 	.footer-content a {
@@ -249,10 +267,9 @@ pre {
 
 .story-image {
 	display: block;
-	margin: 0px auto;
-	height: 60px;
-	width: auto;
-	margin-top: 10px;
+	margin: 30px auto;
+	width: 300px;
+	height: auto;
 }
 
 .story {
@@ -260,16 +277,123 @@ pre {
 }
 
 .story-signature {
-	height: 60px;
-    width: auto;
+	height: auto;
+    width: 300px;
     float: right;
     position: relative;
-    right: 50px;
+    right: 6vw;
 }
+
+.preview {
+	margin-top: 50px;
+}
+
+.preview-segment {
+	position: relative;
+}
+
+.preview-segment:nth-child(1):after,
+.preview-segment:nth-child(2):after {
+	content: '';
+	height: 55px;
+	width: 1px;
+
+	position: absolute;
+	right: 0;
+	top: 30px;
+
+	background-color: #000000;
+}
+
+.preview-image {
+	width: 200px;
+	height: auto;
+	margin: 30px auto;
+	display: block;
+}
+
+.centered-left-align {
+	width: 225px;
+	display: block;
+	margin: 0px auto;
+}
+
+.preview-summary {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.map-section {
+	display: block;
+	margin: 200px auto 100px auto;
+	width: 60%;
+	height: auto;
+	position: relative;
+}
+
+.map-button {
+	width: 35%;
+    height: auto;
+    position: relative;
+    left: 65%;
+    bottom: 40px;
+}
+
+.map-button-text {
+	position: relative;
+    left: 37%;
+    bottom: 37px;
+	font-size: 1.1vw;
+	text-decoration: none;
+    color: black;
+}
+
+.map-button-link:hover {
+	text-decoration: none;
+}
+
+.connect {
+	text-align: center;
+	background: lightgrey;
+	padding: 150px 0px;
+}
+
+.connect-blurb:after {
+	content: '';
+	height: 150px;
+	width: 1px;
+
+	position: absolute;
+	right: 0;
+	top: 50px;
+
+	background-color: #000000;
+}
+
+.connect-form {
+	padding: 0% 5% !important;
+	margin-top: 25px;
+}
+
+.fat-input {
+	width: 100%;
+    margin: 5px 5px;
+    height: 40px;
+    text-align: center;
+}
+
+.submit-button {
+	cursor: pointer;
+    width: 175px;
+    margin-top: 10px;
+}
+
 /******************** Hamburger Magic *********************/
 .toggle-button {
 	float: right;
-	margin-right: 20px;
+    margin-right: 6vw;
+    cursor: pointer;
+    margin-top: 75px;
 }
 
 .slideout-menu {
@@ -310,15 +434,10 @@ pre {
 	display: block;
 }
 
-.toggle-button {
-    display: inline-block;
-    cursor: pointer;
-}
-
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #AA8241;
+    background-color: #DBC955;
     margin: 6px 0;
     transition: 0.4s;
 }

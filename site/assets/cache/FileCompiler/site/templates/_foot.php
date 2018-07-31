@@ -14,6 +14,8 @@
 		}
 
 			echo 	"<div class='footer-content'>";
+			echo 		"<div>{$page->Footer_Contact}</div>";
+			echo 		"<div>{$page->Footer_Legal}</div>";
 			if($user->isLoggedin()) {
 				// if user is logged in, show a logout link
 				echo 	"<a href='{$config->urls->admin}login/logout/'>Logout ($user->name)</a>";
@@ -28,21 +30,21 @@
 
 	</footer>
 
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
 </body>
 <script>
-  	var slideout = new Slideout({
-		'panel': document.getElementById('panel'),
-		'menu': document.getElementById('menu'),
-		'side': 'right'
-	});
-
-  	// Toggle button
-  	document.querySelector('.toggle-button').addEventListener('click', function() {
-    	slideout.toggle();
-  	});
-
   	function transform(x) {
+		$('#menu').offcanvas('toggle');
     	x.classList.toggle("change");
+	}
+
+	function submitForm() {
+		console.log('Sending email...');
+		$('#emailForm')[0].reset();
 	}
 </script>
 </html>
