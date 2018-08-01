@@ -6,11 +6,9 @@
 		echo "<img class='hero-image' src='{$page->Hero_Image->url}'>";
 	?></div>
 
-	<!-- search form -->
-	<form class='search' action='<?php echo $pages->get('template=search')->url; ?>' method='get'>
-		<input class='searchbar' type='text' name='q' id='search'/>
-		<button type='submit' name='submit'>SEARCH</button>
-	</form>
+	<div class='search-bar'>
+		<script type="text/javascript" src="http://www.idxhome.com/site/listing/search/widget/120703?style=horizontal"></script>
+	</div>
 
 	<div>
 		<?php

@@ -42,6 +42,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
+
+	</div>
 </body>
 <script>
   	function transform(x) {
@@ -52,6 +54,11 @@
 	function submitForm() {
 		console.log('Sending email...');
 		$('#emailForm')[0].reset();
+	}
+
+	function showPage() {
+		document.getElementById("loader-container").style.display = "none";
+		document.getElementById("webpage").style.display = "block";
 	}
 </script>
 </html>

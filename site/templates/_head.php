@@ -9,7 +9,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
 </head>
-<body>
+<body onload="showPage()">
+
+<div id="loader-container">
+	<?php
+		echo "<img id='loader-image' src='{$pages->get("/")->Header_Image->url}'/>";
+	?>
+	<div id="loader"></div>
+</div>
+
+<div id="webpage" style='display: none'>
 
 <div class='row'>
 	<div class='col-6 order-1 col-md-3 order-md-1'>

@@ -253,27 +253,14 @@ pre {
 	height: auto;
 }
 
-.search {
-	padding-top: 1em;
-	padding-bottom: 1em;
-	text-align: center;
+.search-bar {
+	padding: 7px 60px;
+    background: #f7f7f7;
+	margin: 20px;
+	margin-bottom: 50px;
 }
-	.search input {
-		width: 35%;
-		padding: 0px 8px;
-		margin: 0px 0px;
-	}
-	.search button {
-		padding: 0px 10px;
-		margin: 0px 0px;
-		position: relative;
-		right: 5px;
-		line-height: 2.4em;
-		top: 1px;
-		background: #1F4C6C;
-		color: white;
-		border: none;
-		cursor: pointer;
+	.ihf-btn-primary {
+		background: #22749C !important;
 	}
 
 .story-image {
@@ -481,6 +468,35 @@ pre {
 	text-align: justify;
 }
 
+/********************** Praise ****************************/
+
+.praise-title {
+	font-weight: bold;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	margin-bottom: 50px;
+}
+	.praise-title:after {
+		content: '';
+		display: block;
+		border-bottom: 2px solid black;
+		width: 60px;
+		margin: 20px auto;
+	}
+
+.praise-section:nth-child(even) {
+	background-color: #F7F7F7
+}
+
+.praise-item {
+	padding: 20px 14vw;
+	font-family: 'Raleway', sans-serif;
+}
+	.praise-item p {
+		text-align: center;
+		font-size: 14px;
+	}
+
 /******************** Hamburger Magic *********************/
 .toggle-button {
 	float: right;
@@ -546,3 +562,67 @@ pre {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
+
+/********************* Loading Spinner *************************/
+#loader-container {
+	position: relative;
+}
+
+#loader-image {
+	display: block;
+    margin: 45px auto 0px auto;
+    max-width: 300px;
+}
+
+#loader {
+	/* position: absolute;
+	left: 50%;
+	top: 50%; */
+	display: block;
+	margin: 50px auto !important;
+	z-index: 1;
+	width: 60px;
+	height: 60px;
+	margin: -75px 0 0 -75px;
+	border: 5px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 5px solid #DBC955;
+	width: 60px;
+	height: 60px;
+	-webkit-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+  }
+
+  /* Add animation to "page content" */
+  .animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s
+  }
+
+  @-webkit-keyframes animatebottom {
+	from { bottom:-100px; opacity:0 }
+	to { bottom:0px; opacity:1 }
+  }
+
+  @keyframes animatebottom {
+	from{ bottom:-100px; opacity:0 }
+	to{ bottom:0; opacity:1 }
+  }
+
+  #myDiv {
+	display: none;
+	text-align: center;
+  }
