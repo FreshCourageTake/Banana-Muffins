@@ -41,7 +41,7 @@ include('./_head.php'); // include header markup ?>
 	echo "</a>";
 	?></div>
 
-	<div class='row connect'>
+	<div id='connect' class='row connect'>
 		<div class='col-md-6 connect-blurb'>
 			<?php
 				echo $page->Connect_Blurb;

@@ -109,3 +109,5 @@
 2018-08-01 04:33:53	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
 2018-08-01 04:37:27	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
 2018-08-01 04:37:46	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-01 05:49:33	admin	http://localhost/idx/sell-guide/	Compiled file: /site/templates/sell.php
+2018-08-01 05:57:28	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
