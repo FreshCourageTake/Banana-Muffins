@@ -6,6 +6,7 @@
 	<title><?php echo $page->title; ?></title>
 	<meta name="description" content="<?php echo $pages->get("/")->summary; ?>" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
 </head>
 <body>
