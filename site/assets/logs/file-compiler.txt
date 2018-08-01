@@ -80,3 +80,16 @@
 2018-07-31 05:39:02	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
 2018-07-31 05:39:39	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
 2018-07-31 05:39:52	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-01 01:36:52	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 01:42:50	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:28:59	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:30:10	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:38:53	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:40:58	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:41:45	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:42:42	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:43:17	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:43:38	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:44:07	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 02:48:51	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php
+2018-08-01 03:01:38	admin	http://localhost/idx/about-us/	Compiled file: /site/templates/about-us.php

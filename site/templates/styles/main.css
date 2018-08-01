@@ -185,6 +185,12 @@ pre {
 	padding-right: 20px;
 	font-family: 'Cinzel', serif;
 }
+	.menu-content p a {
+		color: black;
+	}
+	.menu-content p a:hover {
+		color: black;
+	}
 
 .social-media-header {
     margin-left: 6vw;
@@ -214,7 +220,7 @@ pre {
 }
 
 .footer-background {
-	padding: 700px 0px 100px 0px;
+	padding: 700px 0px 0px 0px;
 	width: 100%;
 	height: auto;
 }
@@ -234,6 +240,10 @@ pre {
 		color: grey;
 		border-color: grey;
 	}
+
+.footer-images {
+	margin-bottom: 20px;
+}
 
 .hero-image {
 	margin-left: auto;
@@ -424,6 +434,51 @@ pre {
 	cursor: pointer;
     width: 175px;
     margin-top: 10px;
+}
+
+.footer-social-media {
+	max-width: 250px;
+    margin: 20px auto 80px auto;
+}
+
+/****************** About Us *************************/
+
+.about-section {
+	margin-top: 50px;
+    padding: 0px 10vw;
+}
+
+.about-name {
+	font-weight: bold;
+}
+	.about-name:after {
+		content: '';
+		display: block;
+		border-bottom: 2px solid black;
+		width: 60px;
+		margin: 20px auto;
+	}
+
+.about-titles {
+	margin-bottom: 20px;
+}
+
+.name-titles {
+	text-align: center;
+	font-family: 'Cinzel', serif;
+}
+
+.about-image {
+	max-width: 85%;
+    display: block;
+    margin: 5px auto 20px auto;
+}
+
+.about-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	padding: 0px 20px;
+	text-align: justify;
 }
 
 /******************** Hamburger Magic *********************/

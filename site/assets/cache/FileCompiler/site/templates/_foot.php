@@ -14,8 +14,15 @@
 		}
 
 			echo 	"<div class='footer-content'>";
-			echo 		"<div>{$page->Footer_Contact}</div>";
-			echo 		"<div>{$page->Footer_Legal}</div>";
+			echo 		"<div>{$pages->get("/")->Footer_Contact}</div>";
+				foreach($pages->get("/")->Footer_Social_Media as $section) {
+					echo "<img class='footer-social-media' src='{$section->images->first()->url}'/>";
+				}
+				echo "<br>";
+				foreach($pages->get("/")->images as $image) {
+					echo "<img class='footer-images' src='{$image->url}'/>";
+				}
+			echo 		"<div>{$pages->get("/")->Footer_Legal}</div>";
 			if($user->isLoggedin()) {
 				// if user is logged in, show a logout link
 				echo 	"<a href='{$config->urls->admin}login/logout/'>Logout ($user->name)</a>";

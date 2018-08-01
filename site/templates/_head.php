@@ -14,7 +14,7 @@
 <div class='row'>
 	<div class='col-6 order-1 col-md-3 order-md-1'>
 		<div class='social-media-header'><?php
-			foreach($page->Social_Media_Header_Images as $image) {
+			foreach($pages->get("/")->Social_Media_Header_Images as $image) {
 				echo "<span>";
 				echo 	"<a href='{$image->URL}'>";
 				echo 		"<img class='social-icon' src='{$image->images->first()->url}'/>";
