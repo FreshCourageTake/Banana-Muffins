@@ -8,3 +8,5 @@
 2018-07-30 23:37:57	?	?	User 'admin' - Session timed out (session older than 86400 seconds) (IP: 127.0.0.1)
 2018-07-30 23:38:03	admin	http://localhost/idx/processwire/login/?id=1	Successful login for 'admin'
 2018-07-31 06:30:11	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'
+2018-08-04 02:28:41	?	?	User 'admin' - Session timed out (session older than 86400 seconds) (IP: 127.0.0.1)
+2018-08-04 02:28:54	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'

@@ -20,6 +20,10 @@ include('./_head.php'); // include header markup ?>
 
 	<div style='clear:both'></div>
 
+	<div class="promo-video"><?php
+		echo "<iframe src='{$page->Promo_Video}' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>";
+	?></div>
+
 	<div class='row preview'><?php
 		foreach($page->Preview_Section as $section) {
 			echo "<div class='col-md-4 preview-segment'>";

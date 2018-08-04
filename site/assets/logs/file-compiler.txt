@@ -111,3 +111,14 @@
 2018-08-01 04:37:46	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
 2018-08-01 05:49:33	admin	http://localhost/idx/sell-guide/	Compiled file: /site/templates/sell.php
 2018-08-01 05:57:28	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-04 02:28:42	guest	http://localhost/idx/processwire/login/	Maintenance/Copy new version of source file to target file: /site/templates/sell.php => /site/assets/cache/FileCompiler/site/templates/sell.php
+2018-08-04 02:28:42	guest	http://localhost/idx/processwire/login/	Maintenance/Copy new version of source file to target file: /site/templates/_head.php => /site/assets/cache/FileCompiler/site/templates/_head.php
+2018-08-04 02:36:29	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-04 02:37:31	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-04 02:40:12	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-04 02:40:35	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-04 02:41:45	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-04 02:51:17	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-04 02:56:21	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-04 03:01:44	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-04 03:04:29	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
