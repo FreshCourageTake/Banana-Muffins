@@ -31,3 +31,15 @@
 2018-07-31 00:17:21	admin	http://localhost/idx/processwire/module/	Installed module 'FieldtypeRepeater'
 2018-07-31 00:17:24	admin	http://localhost/idx/processwire/module/	Saved module info caches
 2018-07-31 00:17:32	admin	http://localhost/idx/processwire/module/edit?name=FieldtypeRepeater	Saved module 'FieldtypeRepeater' config data
+2018-08-04 05:07:58	admin	http://localhost/idx/processwire/module/download/	Saved module info caches
+2018-08-04 05:08:01	admin	http://localhost/idx/processwire/module/download/	Saved module info caches
+2018-08-04 05:08:07	admin	http://localhost/idx/processwire/module/	Installed module 'WireMailSmtp'
+2018-08-04 05:08:07	admin	http://localhost/idx/processwire/module/	Saved module info caches
+2018-08-04 05:11:56	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp	Saved module 'WireMailSmtp' config data
+2018-08-04 05:13:41	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data
+2018-08-04 05:18:10	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data
+2018-08-04 05:21:06	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data
+2018-08-04 05:23:54	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data
+2018-08-04 05:32:15	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data
+2018-08-04 05:32:26	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data
+2018-08-04 05:56:42	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data

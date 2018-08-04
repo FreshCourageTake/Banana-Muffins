@@ -1,0 +1,4 @@
+2018-08-04 05:24:53	admin	http://localhost/idx/mail-script/	Invalid email address (in C:\MAMP\htdocs\idx\site\assets\cache\FileCompiler\site\modules\WireMailSmtp\WireMailSmtpAdaptor.php line 408)
+2018-08-04 05:26:42	admin	http://localhost/idx/mail-script/	Invalid email address (in C:\MAMP\htdocs\idx\site\assets\cache\FileCompiler\site\modules\WireMailSmtp\WireMailSmtpAdaptor.php line 408)
+2018-08-04 05:32:46	admin	http://localhost/idx/mail-script/	Invalid email address (in C:\MAMP\htdocs\idx\site\assets\cache\FileCompiler\site\modules\WireMailSmtp\WireMailSmtpAdaptor.php line 408)
+2018-08-04 05:59:20	admin	http://localhost/idx/mail-script/	Invalid email address (in C:\MAMP\htdocs\idx\site\assets\cache\FileCompiler\site\modules\WireMailSmtp\WireMailSmtpAdaptor.php line 408)

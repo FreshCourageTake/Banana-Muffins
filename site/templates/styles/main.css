@@ -130,7 +130,7 @@ pre {
 @media only screen and (min-width: 1200px) {
 	/* extra-wide desktop layout */
 
-	body, td, textarea {
+	body, td {
 		font-size: 115%;
 	}
 }
@@ -207,7 +207,8 @@ pre {
 	max-width: 250px;
     margin: 0px auto;
     display: block;
-    padding: 50px 0px;
+	padding: 50px 0px;
+	cursor: pointer;
 }
 
 .menu-image {
@@ -427,10 +428,26 @@ pre {
 	margin-top: 25px;
 }
 
+.email-sent {
+	margin-top: 15px;
+	font-family: 'Cinzel', serif;
+}
+
+.email-failed {
+	margin-top: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
 .fat-input {
 	width: 100%;
     margin: 5px 5px;
     height: 40px;
+    text-align: center;
+}
+
+.fat-textarea {
+	width: 100%;
+    margin: 5px 5px;
     text-align: center;
 }
 

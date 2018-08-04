@@ -34,10 +34,7 @@
 	</div>
 	<div class='col-12 order-3 col-md-6 order-md-2'>
 		<?php
-			if(count($pages->get("/")->Header_Image)) {
-				$headerImage = $pages->get("/")->Header_Image->url;
-				echo "<img class='header-image' src='{$headerImage}'/>";
-			}
+			echo "<img class='header-image' src='{$pages->get("/")->Header_Image->url}' onclick='goHome()'/>";
 		?>
 	</div>
 	<div class='col-6 order-2 col-md-3 order-md-3'>

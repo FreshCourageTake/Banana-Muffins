@@ -55,26 +55,28 @@ include('./_head.php'); // include header markup ?>
 			<form id='emailForm'>
 				<div class='row' style='margin-bottom: 40px'>
 					<div class='col-sm-6'>
-						<input type='text' class='fat-input' placeholder='NAME'/>
+						<input type='text' id='senderName' class='fat-input' placeholder='NAME'/>
 					</div>
 					<div class='col-sm-6'>
-						<input type='email' class='fat-input' placeholder='EMAIL'/>
+						<input type='email' id='senderEmail' class='fat-input' placeholder='EMAIL'/>
 					</div>
 				</div>
 				<div class='row'>
 					<div class='col-sm-12'>
-						<input type='text' class='fat-input' placeholder='MESSAGE'/>
+						<input type='text' id='emailSubject' class='fat-input' placeholder='SUBJECT'/>
 					</div>
 				</div>
 				<div class='row'>
 					<div class='col-sm-12'>
-						<textarea class='fat-input'></textarea>
+						<textarea id='emailBody' class='fat-textarea' rows='2'></textarea>
 					</div>
 				</div>
 				<?php
 					echo "<img src='{$page->Submit_Image->url}' class='submit-button' onclick='submitForm()'/>";
 				?>
 			</form>
+			<h1 id="emailSent" class="email-sent">Email Sent!</h1>
+			<p id="emailFailed" class="email-failed">Our servers are having some issues right now. Please try again later, or email Heidi directly at hferrell@hfrealtor.com</p>
 		</div>
 	</div>
 

@@ -37,7 +37,7 @@
 
 	</footer>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css">
@@ -46,19 +46,41 @@
 	</div>
 </body>
 <script>
+	$('#emailSent').hide();
+	$('#emailFailed').hide();
+
   	function transform(x) {
 		$('#menu').offcanvas('toggle');
     	x.classList.toggle("change");
 	}
 
 	function submitForm() {
-		console.log('Sending email...');
-		$('#emailForm')[0].reset();
+		$.post('http://localhost/idx/mail-script/',
+		{
+			senderName: $('#senderName').val(),
+			senderEmail: $('#senderEmail').val(),
+			emailSubject: $('#emailSubject').val(),
+			emailBody: $('#emailBody').val(),
+		},
+		function(response) {
+			$('#emailForm')[0].reset();
+			$('#emailSent').show();
+			setTimeout(() => {
+				$('#emailSent').hide();
+			}, 6000);
+		})
+		.fail(function() {
+			$('#emailFailed').show();
+		})
 	}
 
 	function showPage() {
 		document.getElementById("loader-container").style.display = "none";
 		document.getElementById("webpage").style.display = "block";
+	}
+
+	function goHome() {
+		<?php echo "window.location.href = '{$pages->get('/')->url}'"; ?>
 	}
 </script>
 </html>
