@@ -37,19 +37,19 @@
 		}
 	?></div>
 
-<div class="map-wrapper">
-	<div class="map-section"><?php
-		echo "<img src='{$page->Map_Images->first()->url}'/>";
-		echo "<a href='{$page->Keller_URL}' class='a'></a>";
-		echo "<a href='{$page->Southlake_URL}' class='b'></a>";
-		echo "<a href='{$page->Grapevine_URL}' class='c'></a>";
-		echo "<a href='{$page->Colleyville_URL}' class='d'></a>";
-		echo "<a class='map-button-link' href='/search/'>";
-		echo 	"<img class='map-button' src='{$page->Map_Images->eq(1)->url}'/>";
-		echo 	"<span class='map-button-text'>SEARCH ALL AREAS</span>";
-		echo "</a>";
-	?></div>
-</div>
+	<div class="map-wrapper">
+		<div class="map-section"><?php
+			echo "<img src='{$page->Map_Images->first()->url}'/>";
+			echo "<a href='{$page->Keller_URL}' class='a'></a>";
+			echo "<a href='{$page->Southlake_URL}' class='b'></a>";
+			echo "<a href='{$page->Grapevine_URL}' class='c'></a>";
+			echo "<a href='{$page->Colleyville_URL}' class='d'></a>";
+			echo "<a class='map-button-link' href='/search/'>";
+			echo 	"<img class='map-button' src='{$page->Map_Images->eq(1)->url}'/>";
+			echo 	"<span class='map-button-text'>SEARCH ALL AREAS</span>";
+			echo "</a>";
+		?></div>
+	</div>
 
 	<div id='connect' class='row connect'>
 		<div class='col-md-6 connect-blurb'>
@@ -85,6 +85,7 @@
 			<p id="emailFailed" class="email-failed">Our servers are having some issues right now. Please try again later, or email Heidi directly at hferrell@hfrealtor.com</p>
 		</div>
 	</div>
+	<div class='filler-grey'></div>
 
 <?php include(\ProcessWire\wire('files')->compile(\ProcessWire\wire("config")->paths->root . 'site/templates/_foot.php',array('includes'=>true,'namespace'=>true,'modules'=>true,'skipIfNamespace'=>true))); // include footer markup ?>
 
