@@ -341,7 +341,7 @@ pre {
 	font-family: 'Raleway', sans-serif;
 }
 
-.map-section {
+.map-wrapper {
 	display: block;
 	margin: 200px auto 100px auto;
 	width: 60vw;
@@ -350,10 +350,56 @@ pre {
 }
 
 @media only screen and (max-width: 844px) {
-    .map-section {
+    .map-wrapper {
 		margin: 100px auto 50px auto;
 		width: 80vw;
 	}
+}
+
+div.map-section {
+    position: relative;
+}
+
+div.map-section > img {
+    display: block;
+    max-width: 100%;
+}
+
+div.map-section > a {
+    display: block;
+    position: absolute;
+}
+
+/* div.map-section > a:hover {
+    background-color: rgba(255, 0, 0, .5);
+} */
+
+div.map-section > a.a {
+	top: 52%;
+    left: 3%;
+    width: 22%;
+    height: 15.5%;
+}
+
+div.map-section > a.b {
+    top: 37%;
+    left: 33%;
+    width: 28%;
+    height: 15.5%;
+}
+
+div.map-section > a.c {
+    top: 57%;
+    right: 10%;
+    width: 26.4%;
+    height: 17.5%;
+}
+
+div.map-section > a.d {
+	top: 81%;
+    right: 35%;
+    width: 26.4%;
+    height: 11.5%;
 }
 
 .map-button {

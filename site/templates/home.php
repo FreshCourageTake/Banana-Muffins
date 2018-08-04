@@ -37,13 +37,19 @@ include('./_head.php'); // include header markup ?>
 		}
 	?></div>
 
-	<div class='map-section'><?php
-	echo "<img class='map' src='{$page->Map_Images->first()->url}'/>";
-	echo "<a class='map-button-link' href='/search/'>";
-	echo 	"<img class='map-button' src='{$page->Map_Images->eq(1)->url}'/>";
-	echo 	"<span class='map-button-text'>SEARCH ALL AREAS</span>";
-	echo "</a>";
+<div class="map-wrapper">
+	<div class="map-section"><?php
+		echo "<img src='{$page->Map_Images->first()->url}'/>";
+		echo "<a href='{$page->Keller_URL}' class='a'></a>";
+		echo "<a href='{$page->Southlake_URL}' class='b'></a>";
+		echo "<a href='{$page->Grapevine_URL}' class='c'></a>";
+		echo "<a href='{$page->Colleyville_URL}' class='d'></a>";
+		echo "<a class='map-button-link' href='/search/'>";
+		echo 	"<img class='map-button' src='{$page->Map_Images->eq(1)->url}'/>";
+		echo 	"<span class='map-button-text'>SEARCH ALL AREAS</span>";
+		echo "</a>";
 	?></div>
+</div>
 
 	<div id='connect' class='row connect'>
 		<div class='col-md-6 connect-blurb'>
