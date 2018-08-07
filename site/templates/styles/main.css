@@ -30,10 +30,6 @@ img {
 	max-width: 100%;
 }
 
-h2 {
-	font-weight: normal;
-}
-
 h3 {
 	padding-top: 1em;
 }
@@ -503,6 +499,23 @@ div.map-section > a.d {
 	font-family: 'Raleway', sans-serif;
 }
 
+.contact-container {
+	margin: 0px 40px;
+}
+
+.row-link {
+	cursor: pointer;
+}
+
+.contact-wrapper {
+	margin: 0px 5vw;
+	font-family: 'Raleway', sans-serif;
+}
+
+.contact-info h3 {
+	padding: 0px 0px;
+}
+
 .fat-input {
 	width: 100%;
     margin: 5px 5px;
@@ -596,7 +609,7 @@ div.map-section > a.d {
 		font-size: 14px;
 	}
 
-/******************** Hamburger Magic *********************/
+/******************** Hamburger *********************/
 .toggle-button {
 	float: right;
     margin-right: 6vw;

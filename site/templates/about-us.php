@@ -17,6 +17,6 @@
         echo    "</div>";
         echo "</div>";
     }
-?></div>
+?>
 
 <?php include('./_foot.php'); // include footer markup ?>

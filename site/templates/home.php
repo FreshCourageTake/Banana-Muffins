@@ -82,7 +82,9 @@ include('./_head.php'); // include header markup ?>
 				?>
 			</form>
 			<h1 id="emailSent" class="email-sent">Email Sent!</h1>
-			<p id="emailFailed" class="email-failed">Our servers are having some issues right now. Please try again later, or email Heidi directly at hferrell@hfrealtor.com</p>
+			<p id="emailFailed" class="email-failed">You're email couldn't be sent at this time. Please try again later, or email Heidi directly at hferrell@hfrealtor.com</p>
+			<p id="missingField" class="email-failed">Please fill out all the fields in order to send your email!</p>
+			<p id="invalidEmail" class="email-failed">Please enter a valid email address!</p>
 		</div>
 	</div>
 	<div class='filler-grey'></div>

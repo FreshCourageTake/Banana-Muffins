@@ -11,3 +11,9 @@
 2018-08-04 02:28:41	?	?	User 'admin' - Session timed out (session older than 86400 seconds) (IP: 127.0.0.1)
 2018-08-04 02:28:54	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'
 2018-08-04 08:39:09	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: 127.0.0.1)
+2018-08-07 01:47:16	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'
+2018-08-07 03:05:11	admin	http://localhost/idx/processwire/login/logout/	Logout for 'admin'
+2018-08-07 03:05:17	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'
+2018-08-07 03:14:22	admin	http://localhost/idx/processwire/login/logout/	Logout for 'admin'
+2018-08-07 03:14:26	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'
+2018-08-07 03:37:49	admin	http://localhost/idx/processwire/login/	Successful login for 'admin'
