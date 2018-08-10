@@ -43,3 +43,8 @@
 2018-08-04 05:32:15	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data
 2018-08-04 05:32:26	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data
 2018-08-04 05:56:42	admin	http://localhost/idx/processwire/module/edit?name=WireMailSmtp&collapse_info=1	Saved module 'WireMailSmtp' config data
+2018-08-10 02:17:39	admin	http://localhost/idx/processwire/module/download/	Saved module info caches
+2018-08-10 02:17:41	admin	http://localhost/idx/processwire/module/download/	Saved module info caches
+2018-08-10 02:17:45	admin	http://localhost/idx/processwire/module/	Installed module 'MarkupSEO'
+2018-08-10 02:17:45	admin	http://localhost/idx/processwire/module/	Saved module info caches
+2018-08-10 02:19:32	admin	http://localhost/idx/processwire/module/edit?name=MarkupSEO	Saved module 'MarkupSEO' config data
