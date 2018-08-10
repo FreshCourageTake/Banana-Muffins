@@ -235,3 +235,14 @@
 2018-08-07 04:17:03	admin	http://localhost/idx/form-submissions/1533614139alexa/	Compiled file: /site/templates/contact-information.php
 2018-08-07 04:17:11	admin	http://localhost/idx/form-submissions/1533614139alexa/	Compiled file: /site/templates/contact-information.php
 2018-08-07 04:27:18	admin	http://localhost/idx/form-submissions/1533614139alexa/	Compiled file: /site/templates/contact-information.php
+2018-08-10 00:38:01	admin	http://localhost/idx/	Compiled file: /site/templates/home.php
+2018-08-10 00:41:21	admin	http://localhost/idx/areas/	Compiled file: /site/templates/areas.php
+2018-08-10 00:42:29	admin	http://localhost/idx/areas/	Compiled file: /site/templates/areas.php
+2018-08-10 01:13:23	admin	http://localhost/idx/areas/	Compiled file: /site/templates/areas.php
+2018-08-10 01:16:28	admin	http://localhost/idx/areas/	Compiled file: /site/templates/areas.php
+2018-08-10 01:23:58	admin	http://localhost/idx/areas/	Compiled file: /site/templates/areas.php
+2018-08-10 01:24:43	admin	http://localhost/idx/areas/	Compiled file: /site/templates/areas.php
+2018-08-10 01:37:07	admin	http://localhost/idx/sell-guide/	Compiled file: /site/templates/sell.php
+2018-08-10 01:38:50	admin	http://localhost/idx/sell-guide/	Compiled file: /site/templates/sell.php
+2018-08-10 01:39:26	admin	http://localhost/idx/sell-guide/	Compiled file: /site/templates/sell.php
+2018-08-10 01:40:02	admin	http://localhost/idx/sell-guide/	Compiled file: /site/templates/sell.php

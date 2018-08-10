@@ -237,12 +237,17 @@ pre {
 	.footer-content a {
 		color: white;
 		text-decoration: none;
-		border-bottom: 1px solid white;
 	}
 	.footer-content a:hover {
-		color: grey;
-		border-color: grey;
+		color: white;
+		border-bottom: 1px solid white;
 	}
+
+.footer-social-media {
+	max-width: 50px;
+    padding: 0px 5px;
+    margin: 20px auto 80px auto;
+}
 
 .footer-images {
 	margin-bottom: 20px;
@@ -535,11 +540,6 @@ div.map-section > a.d {
     margin-top: 10px;
 }
 
-.footer-social-media {
-	max-width: 250px;
-    margin: 20px auto 80px auto;
-}
-
 /****************** About Us *************************/
 
 .about-section {
@@ -608,6 +608,47 @@ div.map-section > a.d {
 		text-align: center;
 		font-size: 14px;
 	}
+
+/************************ Areas ********************/
+.title-image {
+	display: block;
+    margin: 0px auto 100px auto;
+    max-width: 300px;
+}
+
+.area-section {
+	margin: 20px 5vw 150px 5vw !important;
+}
+
+.area-text {
+	font-size: .9em;
+	margin-left: 3vw;
+}
+	.area-text h2 {
+		font-family: 'Cinzel', serif;
+	}
+	.area-text p:first-of-type {
+		font-size: 1.4em;
+		margin-top: -8px;
+		font-weight: 200;
+	}
+	.area-text p {
+		font-family: 'Raleway', sans-serif;
+		text-align: justify;
+	}
+
+.area-image-container {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.area-link {
+	color: black;
+}
+
+.area-link:hover {
+	color: black;
+}
 
 /******************** Hamburger *********************/
 .toggle-button {

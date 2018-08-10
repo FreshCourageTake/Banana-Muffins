@@ -16,7 +16,9 @@
 			echo 	"<div class='footer-content'>";
 			echo 		"<div>{$pages->get("/")->Footer_Contact}</div>";
 				foreach($pages->get("/")->Footer_Social_Media as $section) {
-					echo "<img class='footer-social-media' src='{$section->images->first()->url}'/>";
+					echo "<a href='{$section->URL}' class='footer-social-links'>";
+					echo 	"<img class='footer-social-media' src='{$section->images->first()->url}'/>";
+					echo "</a>";
 				}
 				echo "<br>";
 				foreach($pages->get("/")->images as $image) {

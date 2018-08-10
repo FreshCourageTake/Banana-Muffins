@@ -44,7 +44,7 @@ include('./_head.php'); // include header markup ?>
 			echo "<a href='{$page->Southlake_URL}' class='b'></a>";
 			echo "<a href='{$page->Grapevine_URL}' class='c'></a>";
 			echo "<a href='{$page->Colleyville_URL}' class='d'></a>";
-			echo "<a class='map-button-link' href='/search/'>";
+			echo "<a class='map-button-link' href='{$page->All_Areas_URL}'>";
 			echo 	"<img class='map-button' src='{$page->Map_Images->eq(1)->url}'/>";
 			echo 	"<span class='map-button-text'>SEARCH ALL AREAS</span>";
 			echo "</a>";

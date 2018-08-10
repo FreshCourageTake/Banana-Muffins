@@ -7,3 +7,5 @@
 2018-08-01 03:17:25	admin	http://localhost/idx/processwire/setup/template/removeFields	Deleted field "headline" data in 0 row(s) from 0 page(s) using template "praise". [page-by-page]
 2018-08-01 03:17:25	admin	http://localhost/idx/processwire/setup/template/removeFields	Deleted field "summary" data in 0 row(s) from 0 page(s) using template "praise". [page-by-page]
 2018-08-01 03:19:17	admin	http://localhost/idx/processwire/setup/template/removeFields	Deleted field "body" data in 0 row(s) from 0 page(s) using template "praise". [page-by-page]
+2018-08-10 00:15:15	admin	http://localhost/idx/processwire/setup/template/removeFields	Deleted field "About_Sections" data in 1 row(s) from 1 page(s) using template "areas". [page-by-page]
+2018-08-10 01:20:51	admin	http://localhost/idx/processwire/setup/field/save	Deleted field "headline" data in 0 row(s) from 0 page(s) using template "repeater_Areas". [page-by-page]
